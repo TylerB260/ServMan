@@ -1,0 +1,16 @@
+{
+	"name": "ServMan",
+	"description": "A basic server manager script.",
+	"repository": "tylerb260/servman",
+	"license": "WTFPL",
+	"dependencies": {
+		"deasync": "*",
+		"fs-extra": "*",
+		"terminal-kit": "*",
+		"colors": "*"
+	},
+	"bin": {
+		"servman": "./init.js",
+		"srvman": "./init.js"
+	}
+}
