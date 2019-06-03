@@ -139,12 +139,12 @@ module.exports = {
 			self.rcon(data);
 		});
 		
-		// comfort the user when they realize they ctrl+c'danny
+		// comfort the user when they realize they ctrl+c... danny
 		rl.on("SIGINT", function(data){
 			term.eraseLine();
 			term.left(999);
 			
-			log("INFO", "Terminating console session - don't worry, the server is unaffected.");
+			log("INFO", "Terminating console session - don't worry, the server is still running.");
 			process.exit();
 		});
 	
